@@ -49,6 +49,7 @@ function App() {
                 onAmountChange={(amount) => setAmount(amount)}
               />
             </div>
+            {/* "Hey InputBox, I'm giving you some information and some functions. Use them when needed." */}
             
             <div className="relative w-full h-0.5">
               <button
@@ -74,7 +75,7 @@ function App() {
             <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
               Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
-            
+
           </form>
         </div>
       </div>
